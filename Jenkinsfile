@@ -12,7 +12,7 @@ pipeline {
                 // Clone the repository and use the branch if required
                 git branch: 'main', 
                     url: 'https://github.com/skotaiah/Devop.git', 
-                    credentialsId: 'f0bd0d81-f141-40c9-b7fd-50a379232a04'
+                    
             }
         }
 
